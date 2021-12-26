@@ -1,6 +1,6 @@
 {
   "name": "create-react-dapp-example",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple Web3 Boilerplate for React DApps",
   "source": "src/index.html",
   "bin": "./bin/cli.js",

@@ -13,7 +13,7 @@ const runCommand = command => {
  }
 
 const repositoryName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/armanmamyan/simple-web3-react ${repositoryName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/armanmamyan/create-react-dapp-example ${repositoryName}`;
 const installCommand = `cd ${repositoryName} && yarn install`;
 
 console.log(`Cloning the repository with the name ${repositoryName}`);
