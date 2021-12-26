@@ -1,0 +1,101 @@
+html {
+    font-size: calc(60% + 0.8vmin);
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    height: 1px;
+    text-align: center;
+}
+
+#dapp{
+    height: 100%;
+    margin: 6rem 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 2.5rem;
+}
+
+h6{
+    font-size: 1.5rem;
+}
+
+a{
+    display: inline-block;
+    margin: 0 8px;
+    color: #00d4b1;
+}
+
+hr{
+    margin: 1.5rem 0;
+}
+
+button{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #00d4b1;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1;
+    border-radius: 5px;
+    padding: .4rem 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: background-color .5s ease;
+}
+
+button:hover{
+    border-color: #00d4b1;
+    background-color: transparent;
+}
+
+button:disabled{
+    opacity: .5;
+}
+
+.minting--option{
+    text-align: right;
+}
+
+.nft--counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contract--details-btn{
+    line-height: 1;
+}
+
+.contract--details-btn svg{
+    height: 16px;
+}
+
+.nft--counter h4 {
+    margin: 0 16px;
+}
+
+.purchase--details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contract--mint{
+    margin-inline-start: 2rem;
+}
