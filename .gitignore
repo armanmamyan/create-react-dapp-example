@@ -1,3 +1,5 @@
 /node_modules
+/dist
+/.parce-cache
 .idea
 .DS_Store
