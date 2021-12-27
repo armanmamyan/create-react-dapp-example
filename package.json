@@ -28,5 +28,16 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "web3": "^1.6.1"
-  }
+  },
+  "keywords": [
+    "solidity",
+    "web3",
+    "minting option",
+    "metamask",
+    "coinbase",
+    "connect wallet to your react app",
+    "DApp",
+    "web3-react",
+    "parce-dapp"
+  ]
 }
